@@ -1,5 +1,5 @@
 #!/usr/bin/perl -w
-# Jadach Dominika - projekt zaliczeniowy - grupa 1
+# Jadach Dominika
 
 
 use strict;
@@ -27,7 +27,7 @@ sub Help{
 	print YELLOW "Skrypt ten sluzy do tworzenia i obslugi kontaktów w ksiazce telefonicznej.\n";
 	print "Jest ona zapisywana w pliku phonebook.csv i zawiera nastepujace informacje: \n";
 	print "id kontaktu, nazwa, numer telefonu, kategoria, opis. \n", RESET;
-	print MAGENTA"Autor: Dominika Jadach - grupa 1 \n" , RESET;
+	print MAGENTA"Autor: Dominika Jadach\n" , RESET;
 	print YELLOW "Mozliwe dzialania: \n";
 	print "--add        umozliwia dodanie kontaktu, \n";
 	print "--remove     umozliwia usuniecie konkretnego kontaktu z ksiazki, \n";
