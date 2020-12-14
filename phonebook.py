@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# Jadach Dominika - projekt zaliczeniowy - grupa 1
+# Jadach Dominika
 
 
 import sys
@@ -24,7 +24,7 @@ class Phonebook:
         print(colors.YELLOW + "Skrypt ten sluzy do tworzenia i obslugi kontaktow w ksiazce telefonicznej.")
         print("Jest ona zapisywana w pliku phonebook.csv i zawiera nastepujace informacje: ")
         print("id kontaktu, nazwa, numer telefonu, kategoria, opis. " + colors.ENDC)
-        print(colors.MAGENTA + "Autor: Dominika Jadach - grupa 1 " + colors.ENDC)
+        print(colors.MAGENTA + "Autor: Dominika Jadach" + colors.ENDC)
         print(colors.YELLOW + "Mozliwe dzialania: ")
         print("--add        umozliwia dodanie kontaktu, ")
         print("--remove     umozliwia usuniecie konkretnego kontaktu z ksiazki, ")
